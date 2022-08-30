@@ -30,7 +30,7 @@ async function displayWeatherData(citySearch) {
 
 async function getWeatherCoord(city) {
   const fetchLocation = await fetch(
-    `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${key}
+    `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${key}
   `,
     { mode: 'cors' }
   );
