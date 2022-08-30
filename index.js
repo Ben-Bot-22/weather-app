@@ -9,7 +9,7 @@ const windSpeed = document.getElementById('wind-speed');
 const humidity = document.getElementById('humidity');
 
 const search = document.getElementById('search');
-search.addEventListener('keypress', function (e) {
+search.addEventListener('keypress', (e) => {
   if (e.key === 'Enter') {
     e.preventDefault();
     displayWeatherData(search.value);
@@ -69,7 +69,7 @@ displayWeatherData(defaultCity);
 /*
 TODO:
 
-- Optional: add a ‘loading’ component that displays from the time the form is submitted until the 
-information comes back from the API.
+- Optional: add a ‘loading’ component that displays from the time 
+the form is submitted until the information comes back from the API.
 
 */
