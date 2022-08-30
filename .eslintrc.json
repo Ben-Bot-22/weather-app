@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "max-len": "warn",
+        "no-unused-vars": "warn",
+        "no-trailing-spaces": "warn",
+        "comma-dangle": "off",
+        "spaced-comment": "warn",
+        // "prefer-const": "warn”,
+        "object-shorthand": "warn",
+        "prefer-arrow-callback": "warn",
+        "import/prefer-default-export": "warn"
+    }
+}
